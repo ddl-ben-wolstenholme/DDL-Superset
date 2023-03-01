@@ -1,0 +1,8 @@
+superset:
+  title: "Apache Superset"
+  iconUrl: "https://superset.apache.org/img/superset-logo-horiz-apache.svg"
+  start: [ "/var/opt/workspaces/superset/start" ]
+  httpProxy:
+    port: 8088
+    rewrite: false
+    requireSubdomain: true
